@@ -1,4 +1,4 @@
-## 클래스 ##
+## 함수 선언 ##
 def findsertIdx(ary, data): # data를 삽입할 위치를 찾는 알고리즘(삽입정렬)
     findIdx = -1 # 초기값
     for i in range(0, len(ary)):
@@ -10,10 +10,11 @@ def findsertIdx(ary, data): # data를 삽입할 위치를 찾는 알고리즘(�
     else: # 아니면 입력할 위치 return
         return findIdx
 
-## 전역변수 ##
+## 전역 변수 ##
 before = [188, 162, 168, 129, 50, 150, 177, 105, 199]
 after = []
 
+## 메인 코드
 if __name__ == '__main__':
     print('정렬 전-->', before)
     for i in range(len(before)):
@@ -21,3 +22,4 @@ if __name__ == '__main__':
         insPos = findsertIdx(after, data)
         after.insert(insPos, data) #입력할 위치에 data insert하기
     print('정렬 후-->', after)
+
