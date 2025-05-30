@@ -1,4 +1,4 @@
-def insertionSort(ary):
+def insertionSort(ary): # 여기 삽입정렬 알고리즘도 코드 관련 문제가 100%나온다.
     n = len(ary)
     for end in range(1, n):
         for cur in range(end, 0, -1):

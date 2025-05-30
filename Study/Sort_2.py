@@ -1,5 +1,5 @@
 ## 함수 선언 ##
-def selectionSort(ary):
+def selectionSort(ary): #여기 부분 무조건 소스코드 시험에 나옴 ###
     n = len(ary)
     for i in range(0, n-1):
         minIdx = i
